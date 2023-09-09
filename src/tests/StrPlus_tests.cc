@@ -2,8 +2,8 @@
 
 #include "../lib/str_plus.h"
 
-using Str = hhullen::Str;
-using StrList = hhullen::StrList;
+using hhullen::Str;
+using hhullen::StrList;
 
 TEST(StrPlus, Split_normal) {
   Str test_1("qwe r ty");
